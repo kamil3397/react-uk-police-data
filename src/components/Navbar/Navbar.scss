@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #1b1f3b;
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  .navbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &.active {
+        font-weight: 700;
+        border-bottom: 2px solid white;
+      }
+
+      &:hover {
+        color: #d3e9fb;
+      }
+    }
+  }
+
+  .app-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+}

@@ -1,0 +1,112 @@
+.force-details {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.unsplash.com/photo-1610815253406-7a5887109e83?q=80&w=1170&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .force-content {
+    max-width: 860px;
+    width: 100%;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-align: center;
+
+    h2 {
+      font-size: 2.4rem;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      letter-spacing: -0.5px;
+    }
+
+    hr {
+      width: 60px;
+      height: 4px;
+      background: #ffffff;
+      border: none;
+      margin: 0 auto 2.5rem;
+      border-radius: 4px;
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #e1e1e1;
+      text-align: justify;
+      padding: 0 0.5rem;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.8rem;
+      background-color: #0077cc;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        background-color: #005fa3;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .no-description {
+      text-align: center;
+      color: #e1e1e1;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      padding: 1.5rem 1rem;
+
+      img {
+        width: 100%;
+        max-width: 480px;
+        border-radius: 0.75rem;
+        margin: 0 auto 1.5rem;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        display: block;
+      }
+
+      p {
+        margin: 0 auto 1.5rem;
+        max-width: 600px;
+      }
+
+      .no-description-link {
+        display: inline-block;
+        padding: 0.75rem 1.8rem;
+        background-color: #0077cc;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+        &:hover {
+          background-color: #005fa3;
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}

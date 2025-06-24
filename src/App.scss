@@ -1,0 +1,14 @@
+@use './components/Navbar/Navbar.scss';
+@use './pages/Forces/ForcesPage.scss';
+@use './pages/Home/Home.scss';
+@use './pages/CrimesPage/CrimesPage.scss';
+@use './pages/ForceDetails/ForceDetails.scss';
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
