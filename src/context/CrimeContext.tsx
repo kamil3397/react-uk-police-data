@@ -25,9 +25,6 @@ export const CrimesProvider = ({ children }: PropsWithChildren) => {
 
   const fetchCrimes = (forceId: string, date: string) => {
     setLoading(true)
-    setError(null)
-    setInfoMessage(null)
-    setCrimes([])
 
     fetch(`https://data.police.uk/api/crimes-no-location?category=all-crime&force=${forceId}&date=${date}`)
       .then((res) => {
